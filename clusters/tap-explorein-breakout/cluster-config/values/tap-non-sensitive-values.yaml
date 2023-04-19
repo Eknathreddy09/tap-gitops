@@ -52,6 +52,18 @@ tap_install:
           namespace: tap-gui
           secretName: tap-gui-secret
        app_config:
+         kubernetes:
+          serviceLocatorMethod:
+            type: multiTenant
+          clusterLocatorMethods:
+          - type: config
+            clusters:
+            - url: https://${KUBERNETES_SERVICE_HOST}:${KUBERNETES_SERVICE_PORT}
+              name: host
+              authProvider: serviceAccount
+              serviceAccountToken: ${KUBERNETES_SERVICE_ACCOUNT_TOKEN}
+              skipTLSVerify: true
+              skipMetricsLookup: false
          catalog:
            locations:
              - type: url
@@ -61,21 +73,20 @@ tap_install:
     metadata_store:
        ns_for_export_app_cert: "*"
        app_service_type: ClusterIP
-       # ingress_enabled: "true"
-       #  ingress_domain: "demo.vmwareexploreindia.com"
-       #  tls:
-       #     secretName: tap-gui-secret
-       #     namespace: tap-gui
+
     scanning:
       metadataStore:
       url: "" # Disable embedded integration since it's deprecated
+    
     grype:
       namespace: "tap-workload" # (optional) Defaults to default namespace.
       targetImagePullSecret: "registry-credentials"
+    
     contour:
        envoy:
          service:
            type: LoadBalancer
+    
     cnrs:
       default_tls_secret: "tap-workload/ca-cert"
       domain_name: demo.vmwareexploreindia.com
