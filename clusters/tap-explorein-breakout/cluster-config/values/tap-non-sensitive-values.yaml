@@ -59,6 +59,7 @@ tap_install:
          integrations:
            github:
            - host: github.com
+             token: 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
          catalog:
            locations:
              - type: url
