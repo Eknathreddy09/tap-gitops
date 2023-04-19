@@ -123,6 +123,7 @@ tap_install:
     appliveview:
       ingressEnabled: true
       ingressDomain: demo.vmwareexploreindia.com
+      ingress_issuer: ""
     appliveview_connector:
       backend:
         sslDisabled: "true"
@@ -137,6 +138,7 @@ tap_install:
        service_type: ClusterIP
        ingressEnabled: "true"
        ingressDomain: "demo.vmwareexploreindia.com"
+       ingress_issuer: ""
        tls:
           namespace: tap-gui
           secretName: tap-gui-secret
