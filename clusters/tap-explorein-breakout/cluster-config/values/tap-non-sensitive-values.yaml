@@ -1,6 +1,11 @@
 ---
 tap_install:
   values:
+    shared:
+      ingress_domain: "demo.vmwareexploreindia.com"
+      image_registry:
+        project_path: "exploreindiatapsolreg.azurecr.io/tap150/tap-packages"
+        username: "exploreindiatapsolreg"
     ceip_policy_disclosed: true
     excluded_packages:
     - policy.apps.tanzu.vmware.com
