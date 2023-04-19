@@ -31,7 +31,7 @@ tap_install:
          secretName: appliveview-cert
     appliveview_connector:
       backend:
-        sslDisabled: "true"
+        sslDeactivated: "true"
     accelerator:
        ingress:
           include: true
