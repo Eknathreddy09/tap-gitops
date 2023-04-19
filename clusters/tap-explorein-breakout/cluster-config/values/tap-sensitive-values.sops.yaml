@@ -12,8 +12,8 @@ tap_install:
             app_config:
                 integrations:
                     github:
-                        - token: ENC[AES256_GCM,data:mTnDHILy5wh9xHM4aABiIu6WC80JahVlFq+HGbit1eyM3/ehoZxREQ==,iv:eo3iESXLFZMpsN8Q15QXFyuPVz/CuPTrEjhsj9+Bcks=,tag:znbFOlMCzQHSzZUUi6b5jA==,type:str]
-                          host: ENC[AES256_GCM,data:+6c+ttzU5qisUA==,iv:h/ymoFsJUHo8gvcFVFp1d6sfjSyX4GEEIVzvDt8OflU=,tag:goNILcEn928HO+u9oOtzjw==,type:str]
+                        - host: ENC[AES256_GCM,data:+6c+ttzU5qisUA==,iv:h/ymoFsJUHo8gvcFVFp1d6sfjSyX4GEEIVzvDt8OflU=,tag:goNILcEn928HO+u9oOtzjw==,type:str]
+                          token: ENC[AES256_GCM,data:mTnDHILy5wh9xHM4aABiIu6WC80JahVlFq+HGbit1eyM3/ehoZxREQ==,iv:eo3iESXLFZMpsN8Q15QXFyuPVz/CuPTrEjhsj9+Bcks=,tag:znbFOlMCzQHSzZUUi6b5jA==,type:str]
 sops:
     kms: []
     gcp_kms: []
@@ -29,8 +29,8 @@ sops:
             RG1oS1pHZmlOU3huUDdiYjNkWHlEZ3MKnDT6CUcZwEGcWzUPypi42OahbaQWfrt2
             XNkkycDGuoeyWBWEsQZvp/NHOY8GcG5vVLIQvrro6CqWTgoW3kclRg==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2023-04-19T12:08:48Z"
-    mac: ENC[AES256_GCM,data:vLX84nBPe74CYBQyCjmb5zb4CU+Sr/aVlSnB0JYpVoE9kR7f/Pf1a77ZJdRm4kw+32DKjPtcum0C5WUiKnwvJIog4Y5XIS93TBOI6DSjYYCPvQhYfYcXv+5H3wW71RLljTn6Z7bxIPR8ER2D1ZR79FsMd/9FoUewKLDCN7mliyw=,iv:55JwZJY/BT6UU2hI7DdibchN2hqF6ffxjx8xMrNJBNA=,tag:tmiIApycUYyDY/yzjTSdWg==,type:str]
+    lastmodified: "2023-04-19T14:08:40Z"
+    mac: ENC[AES256_GCM,data:7KFm3fBe1y/dmX7iDcpAfry75bN1v6E0U1wTh5mM8VCUZns43fNc3fXXq07BXAJAoD4zzVDV70ZCDLLfG2f/C43chol3JlDum+em3Ni90VNbOEjn/dSYK0bVlu31OzXeMKVenvc18F0+hC9ZuROGcInMOrB3FdMV/zL3JFwrbjc=,iv:R5HrwsY6a8MmuhktMUUbb8h6OMYNjA+Gghc8QGfoIh4=,tag:gzZjM+mxcjkhSfyWParf9g==,type:str]
     pgp: []
     unencrypted_suffix: _unencrypted
     version: 3.7.3
