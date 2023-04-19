@@ -45,7 +45,6 @@ tap_install:
          secret_name: tls
     tap_gui:
        service_type: ClusterIP
-       metadataStoreAutoconfiguration: true
        ingressEnabled: "true"
        ingressDomain: "demo.vmwareexploreindia.com"
        tls:
