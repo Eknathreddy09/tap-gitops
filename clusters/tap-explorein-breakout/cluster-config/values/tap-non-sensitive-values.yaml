@@ -52,10 +52,6 @@ tap_install:
           namespace: tap-gui
           secretName: tap-gui-secret
        app_config:
-         integrations:
-           github:
-           - host: github.com
-             token: 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
          catalog:
            locations:
              - type: url
