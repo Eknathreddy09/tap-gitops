@@ -1,0 +1,7 @@
+---
+git:
+  url: git@github.com:eknathreddy09/tap-gitops.git
+  ref: origin/master
+  sub_path: clusters/tap-explorein-breakout/cluster-config
+tap_package_repository:
+  oci_repository: exploreindiatapsolreg.azurecr.io/tap150/tap-packages
