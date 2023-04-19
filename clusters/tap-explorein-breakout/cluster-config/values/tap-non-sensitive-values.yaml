@@ -156,6 +156,10 @@ tap_install:
                skipMetricsLookup: false
          app:
             baseUrl: https://tap-gui.demo.vmwareexploreindia.com
+         backend:
+           baseUrl: https://tap-gui.demo.vmwareexploreindia.com
+           cors: 
+             origin: https://tap-gui.demo.vmwareexploreindia.com
          catalog:
            locations:
              - type: url
