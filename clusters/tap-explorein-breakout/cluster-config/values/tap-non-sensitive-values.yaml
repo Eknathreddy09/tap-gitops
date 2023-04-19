@@ -7,12 +7,11 @@ tap_install:
     - workshops.learningcenter.tanzu.vmware.com
     supply_chain: testing_scanning
     ootb_supply_chain_testing_scanning:
-      service_account: default
       registry:
         server: "exploreindiatapsolreg.azurecr.io"
         repository: "tap150/build-service"
       gitops:
-          server_address: https://github.com
+          server_address: https://github.com/
           repository_owner: explore-india-booth
           repository_name: spring-tap-petclinic
           ssh_secret: "git-secret"
@@ -57,6 +56,9 @@ tap_install:
                 X-Custom-Source: project-star
          app:
            baseUrl: https://tap-gui.demo.vmwareexploreindia.com
+         integrations:
+           github:
+           - host: github.com
          catalog:
            locations:
              - type: url
