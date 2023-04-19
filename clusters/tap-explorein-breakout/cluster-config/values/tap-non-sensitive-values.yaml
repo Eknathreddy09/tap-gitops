@@ -4,6 +4,7 @@ tap_install:
     ceip_policy_disclosed: true
     excluded_packages:
     - policy.apps.tanzu.vmware.com
+    - workshops.learningcenter.tanzu.vmware.com
     shared: 
       ingress_domain: demo.vmwareexploreindia.com
       ingress_issuer: ""
