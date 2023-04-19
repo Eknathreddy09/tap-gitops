@@ -63,6 +63,12 @@ tap_install:
                serviceAccountToken: ${KUBERNETES_SERVICE_ACCOUNT_TOKEN}
                skipTLSVerify: true
                skipMetricsLookup: false
+         app:
+            baseUrl: https://tap-gui.demo.vmwareexploreindia.com
+         backend:
+            baseUrl: https://tap-gui.demo.vmwareexploreindia.com
+            cors:
+              origin: https://tap-gui.demo.vmwareexploreindia.com
          catalog:
            locations:
              - type: url
