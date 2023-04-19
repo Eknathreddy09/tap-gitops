@@ -69,7 +69,8 @@ tap_install:
               origin: https://tap-gui.demo.vmwareexploreindia.com
          integrations:
            github:
-           - token: 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
+             - token: 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
+               host: github.com
     metadata_store:
        ns_for_export_app_cert: "*"
        app_service_type: ClusterIP
