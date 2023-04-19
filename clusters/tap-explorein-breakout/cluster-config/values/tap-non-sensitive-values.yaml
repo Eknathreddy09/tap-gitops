@@ -32,8 +32,8 @@ tap_install:
       ingressEnabled: "true"
       ingressDomain: "demo.vmwareexploreindia.com"
       tls: 
-         namespace: accelerator-system
-         secretName: tls
+         namespace: app-live-view
+         secretName: appliveview-cert
     appliveview_connector:
       backend:
         sslDisabled: "true"
