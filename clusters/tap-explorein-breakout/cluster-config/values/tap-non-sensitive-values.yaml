@@ -7,7 +7,7 @@ tap_install:
     - workshops.learningcenter.tanzu.vmware.com
     buildservice:
       exclude_dependencies: true
-      kp_default_repository: "exploreindiatapsolreg.azurecr.io/tap142/build-service"
+      kp_default_repository: "exploreindiatapsolreg.azurecr.io/tap150/build-service"
       kp_default_repository_username: "exploreindiatapsolreg"
       kp_default_repository_password: "z64RFzoh9JC54rQ0kou0zXlRWGj151WnzTQAYUYGJf+ACRDfFa79"
     supply_chain: testing_scanning
