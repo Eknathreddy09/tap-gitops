@@ -5,11 +5,6 @@ tap_install:
     excluded_packages:
     - policy.apps.tanzu.vmware.com
     - workshops.learningcenter.tanzu.vmware.com
-    buildservice:
-      exclude_dependencies: true
-      kp_default_repository: "exploreindiatapsolreg.azurecr.io/tap150/build-service"
-      kp_default_repository_username: "exploreindiatapsolreg"
-      kp_default_repository_password: "z64RFzoh9JC54rQ0kou0zXlRWGj151WnzTQAYUYGJf+ACRDfFa79"
     supply_chain: testing_scanning
     ootb_supply_chain_testing_scanning:
       service_account: default
@@ -36,7 +31,7 @@ tap_install:
          secretName: appliveview-cert
     appliveview_connector:
       backend:
-        sslDisabled: "true"
+        sslDeactivated: "true"
     accelerator:
        ingress:
           include: true
@@ -64,18 +59,18 @@ tap_install:
            baseUrl: https://tap-gui.demo.vmwareexploreindia.com
          catalog:
            locations:
-           - type: url
-             target: https://github.com/Eknathreddy09/tanzu-java-web-app/blob/main/catalog/catalog-info.yaml
-           - type: url
-             target: https://github.com/explore-india-booth/spring-tap-petclinic/blob/accelerator/catalog/catalog-info.yaml
+             - type: url
+               target: https://github.com/Eknathreddy09/tanzu-java-web-app/blob/main/catalog/catalog-info.yaml
+             - type: url
+               target: https://github.com/explore-india-booth/spring-tap-petclinic/blob/accelerator/catalog/catalog-info.yaml
          backend:
            baseUrl: https://tap-gui.demo.vmwareexploreindia.com
            cors:
               origin: https://tap-gui.demo.vmwareexploreindia.com
          integrations:
            github:
-           - host: github.com
-             token: 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
+             - token: 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
+               host: github.com
     metadata_store:
        ns_for_export_app_cert: "*"
        app_service_type: ClusterIP
