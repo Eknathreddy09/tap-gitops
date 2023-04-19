@@ -65,10 +65,6 @@ tap_install:
                skipMetricsLookup: false
          app:
             baseUrl: https://tap-gui.demo.vmwareexploreindia.com
-         backend:
-            baseUrl: https://tap-gui.demo.vmwareexploreindia.com
-            cors:
-              origin: https://tap-gui.demo.vmwareexploreindia.com
          catalog:
            locations:
              - type: url
@@ -77,8 +73,8 @@ tap_install:
                target: https://github.com/explore-india-booth/spring-tap-petclinic/blob/accelerator/catalog/catalog-info.yaml
          integrations:
             github:
-            - host: github.com
-              token: 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
+              - host: github.com
+                token: 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
     metadata_store:
        ns_for_export_app_cert: "*"
        app_service_type: ClusterIP
