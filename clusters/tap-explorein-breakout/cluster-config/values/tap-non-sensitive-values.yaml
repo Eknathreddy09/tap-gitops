@@ -8,7 +8,11 @@ tap_install:
         username: "exploreindiatapsolreg"
     ceip_policy_disclosed: true
     namespace_provisioner:
-      controller: false
+      controller: true
+      namespace_selector:
+        matchExpressions:
+          - key: apps.tanzu.vmware.com/tap-workload
+            operator: Exists
       additional_sources:
          - git:
                ref: origin/main
