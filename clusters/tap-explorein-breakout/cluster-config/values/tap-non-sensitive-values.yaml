@@ -301,7 +301,6 @@ tap_install:
        envoy:
          service:
            type: LoadBalancer
-    
     cnrs:
       default_tls_secret: "tap-workload/ca-cert"
       domain_name: demo.vmwareexploreindia.com
