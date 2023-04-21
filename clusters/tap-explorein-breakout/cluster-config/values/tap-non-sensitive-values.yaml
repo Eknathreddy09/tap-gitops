@@ -9,6 +9,10 @@ tap_install:
     ceip_policy_disclosed: true
     namespace_provisioner:
       controller: true
+      namespace_selector:
+        matchExpressions:
+          - key: apps.tanzu.vmware.com/tap-ns
+            operator: Exists
       additional_sources:
          - git:
                ref: origin/main
