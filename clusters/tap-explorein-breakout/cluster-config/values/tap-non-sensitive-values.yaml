@@ -255,6 +255,11 @@ tap_install:
           namespace: tap-gui
           secretName: tap-gui-secret
        app_config:
+         organization:
+           name: 'SBI'
+         customize:
+           custom_name: 'SBI POC Developer Portal'
+           default_route: '/catalog?filters%5Bkind%5D=component&filters%5Buser%5D=all'
          kubernetes:
            serviceLocatorMethod:
              type: multiTenant
