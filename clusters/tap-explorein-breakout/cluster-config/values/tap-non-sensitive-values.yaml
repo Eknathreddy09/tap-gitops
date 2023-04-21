@@ -8,11 +8,7 @@ tap_install:
         username: "exploreindiatapsolreg"
     ceip_policy_disclosed: true
     namespace_provisioner:
-      controller: true
-      namespace_selector:
-        matchExpressions:
-          - key: apps.tanzu.vmware.com/tap-ns
-            operator: Exists
+      controller: false
       additional_sources:
          - git:
                ref: origin/main
@@ -24,10 +20,10 @@ tap_install:
                subPath: custom-resources/testing-scanning-supplychain
                url: https://github.com/Eknathreddy09/tanzu-java-web-app
            path: _ytt_lib/testing-scanning-supplychain-setup
-#      gitops_install:
-#        ref: origin/main
-#        subPath: ns-provisioner-samples/gitops-install
-#        url: https://github.com/Eknathreddy09/tanzu-java-web-app.git
+      gitops_install:
+        ref: origin/main
+        subPath: ns-provisioner-samples/gitops-install
+        url: https://github.com/Eknathreddy09/tanzu-java-web-app.git
     excluded_packages:
     - policy.apps.tanzu.vmware.com
     - workshops.learningcenter.tanzu.vmware.com
