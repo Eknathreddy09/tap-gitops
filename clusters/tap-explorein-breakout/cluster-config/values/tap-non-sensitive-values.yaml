@@ -5,7 +5,7 @@ tap_install:
     shared:
       ingress_issuer: ""
       ingress_domain: "demo.vmwareexploreindia.com"
-        ca_cert_data: |
+      ca_cert_data: |
           -----BEGIN CERTIFICATE-----
           MIIEjzCCA3egAwIBAgISBCBikHOIKpcfV5PuEpfGsrokMA0GCSqGSIb3DQEBCwUA
           MDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQD
