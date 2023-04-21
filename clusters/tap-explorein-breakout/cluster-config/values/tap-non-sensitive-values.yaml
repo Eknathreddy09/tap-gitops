@@ -8,17 +8,18 @@ tap_install:
         username: "exploreindiatapsolreg"
     ceip_policy_disclosed: true
     namespace_provisioner:
+      sync_period: 30s
       controller: true
       namespace_selector:
         matchExpressions:
         - key: apps.tanzu.vmware.com/tap-ns
           operator: Exists
       additional_sources:
-      - git:
-          ref: origin/main
-          subPath: custom-resources/workload-sa
-          url: https://github.com/Eknathreddy09/tanzu-java-web-app
-        path: _ytt_lib/workload-sa
+#      - git:
+#          ref: origin/main
+#          subPath: custom-resources/workload-sa
+#          url: https://github.com/Eknathreddy09/tanzu-java-web-app
+#        path: _ytt_lib/workload-sa
       - git:
           ref: origin/main
           subPath: custom-resources/testing-scanning-supplychain
