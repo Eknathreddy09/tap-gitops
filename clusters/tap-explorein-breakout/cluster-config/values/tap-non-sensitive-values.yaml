@@ -274,6 +274,7 @@ tap_install:
                skipMetricsLookup: false
          app:
             baseUrl: https://tap-gui.demo.vmwareexploreindia.com
+            title: 'SBI POC Developer Portal'
          backend:
            baseUrl: https://tap-gui.demo.vmwareexploreindia.com
            cors: 
