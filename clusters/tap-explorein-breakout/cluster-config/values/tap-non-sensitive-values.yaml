@@ -116,6 +116,11 @@ tap_install:
           subPath: custom-resources/testing-scanning-supplychain
           url: https://github.com/Eknathreddy09/tanzu-java-web-app
         path: _ytt_lib/testing-scanning-supplychain-setup
+      - git: 
+          ref: origin/main
+          subPath: custom-resources/cb-scanner
+          url: https://github.com/Eknathreddy09/tanzu-java-web-app
+        path: _ytt_lib/cb-scanner-setup
 #      gitops_install:
 #        ref: origin/main
 #        subPath: ns-provisioner-samples/gitops-install
@@ -125,6 +130,12 @@ tap_install:
     - workshops.learningcenter.tanzu.vmware.com
     supply_chain: testing_scanning
     ootb_supply_chain_testing_scanning:
+      scanning:
+        image:
+          template: carbonblack-private-image-scan-template
+          policy: cb-scan-policy
+        source:
+          policy: scan-policy
       registry:
         server: "exploreindiatapsolreg.azurecr.io"
         repository: "tap150/build-service"
