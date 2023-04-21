@@ -255,6 +255,11 @@ tap_install:
           namespace: tap-gui
           secretName: tap-gui-secret
        app_config:
+         customize:
+           custom_name: 'SBI TAP POC Developer Portal'
+           default_route: '/catalog?filters%5Bkind%5D=component&filters%5Buser%5D=all'
+         organization:
+           name: 'SBI'
          kubernetes:
            serviceLocatorMethod:
              type: multiTenant
@@ -269,7 +274,28 @@ tap_install:
                skipMetricsLookup: false
          app:
             baseUrl: https://tap-gui.demo.vmwareexploreindia.com
+            title: 'SBI TAP POC Developer Portal'
+            support:
+              url: https://tanzu.vmware.com/support
+              items: 
+                - title: Contact Support
+                  icon: email
+                  links:
+                  - url: https://tanzu.vmware.com/support
+                    title: Tanzu Support Page
+                - title: Documentation
+                  icon: docs
+                  links:
+                  - url: https://docs.vmware.com/en/VMware-Tanzu-Application-Platform/index.html
+                    title: Tanzu Application Platform Documentation
          backend:
+           database:
+             client: pg
+             connection:
+               host: tap-gui-db-postgresql-primary.tap-gui-backend.svc.cluster.local
+               port: 5432
+               user: postgres
+               ssl: false
            baseUrl: https://tap-gui.demo.vmwareexploreindia.com
            cors: 
              origin: https://tap-gui.demo.vmwareexploreindia.com
