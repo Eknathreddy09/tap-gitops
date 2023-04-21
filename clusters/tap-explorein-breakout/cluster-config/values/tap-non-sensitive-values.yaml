@@ -11,8 +11,8 @@ tap_install:
       controller: true
       namespace_selector:
         matchExpressions:
-          - key: apps.tanzu.vmware.com/tap-workload
-            operator: Exists
+        - key: apps.tanzu.vmware.com/tap-ns
+          operator: Exists
       additional_sources:
       - git:
           ref: origin/main
