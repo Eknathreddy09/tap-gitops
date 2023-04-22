@@ -322,7 +322,7 @@ tap_install:
        db_max_open_conns: 10
        db_max_idle_conns: 100
        db_conn_max_lifetime: 60
-       deploy_internal_db: "false"
+       deploy_internal_db: "true"
     scanning:
       metadataStore:
       url: "" # Disable embedded integration since it's deprecated
