@@ -324,38 +324,6 @@ tap_install:
        db_max_idle_conns: 100
        db_conn_max_lifetime: 60
        deploy_internal_db: "false"
-       db_ca_certificate: |
-         -----BEGIN CERTIFICATE-----
-         MIIFPTCCBCWgAwIBAgISBD3YwYVkWt0WYhz98QqjVy6BMA0GCSqGSIb3DQEBCwUA
-         MDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQD
-         EwJSMzAeFw0yMzAzMTUwMjMxMDJaFw0yMzA2MTMwMjMxMDFaMCcxJTAjBgNVBAMM
-         HCoudGFwLnZtd2FyZWV4cGxvcmVpbmRpYS5jb20wggEiMA0GCSqGSIb3DQEBAQUA
-         A4IBDwAwggEKAoIBAQDBv6/ss/te/GKiskY6XEvGKe+ZJfeP7BGixIb6uKdMnxAY
-         abt0dojXdKJvU+7vTul8jkCdF1Wi3t+OSskB5F7RGut3TYNtbKBVM+svAUTEtxBo
-         VcNiEcnE2TdgBvpVxe13uhX2/ehwUqOTvo99CTuUnXlJDxTdwvzG6P90/gwO406j
-         +hrhqSTBal9EV0b0czwx4S6lAZLhDlfi5wVeb6U5LhQARqygYDg0rM8u5cMhURJg
-         4XNps+1vYVcgSr8cKheFqAYG1yaHwjBSJ73bhNROKCvmcAUn/0P8KKEjhp/xUDwW
-         PA6viGyF4kgwPzBammBfCk1VhPpW2EXMCyJkEFYpAgMBAAGjggJWMIICUjAOBgNV
-         HQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1Ud
-         EwEB/wQCMAAwHQYDVR0OBBYEFGSZSM+Tj6YCRVWt792TtO3YPF4CMB8GA1UdIwQY
-         MBaAFBQusxe3WFbLrlAJQOYfr52LFMLGMFUGCCsGAQUFBwEBBEkwRzAhBggrBgEF
-         BQcwAYYVaHR0cDovL3IzLm8ubGVuY3Iub3JnMCIGCCsGAQUFBzAChhZodHRwOi8v
-         cjMuaS5sZW5jci5vcmcvMCcGA1UdEQQgMB6CHCoudGFwLnZtd2FyZWV4cGxvcmVp
-         bmRpYS5jb20wTAYDVR0gBEUwQzAIBgZngQwBAgEwNwYLKwYBBAGC3xMBAQEwKDAm
-         BggrBgEFBQcCARYaaHR0cDovL2Nwcy5sZXRzZW5jcnlwdC5vcmcwggEDBgorBgEE
-         AdZ5AgQCBIH0BIHxAO8AdgC3Pvsk35xNunXyOcW6WPRsXfxCz3qfNcSeHQmBJe20
-         mQAAAYbjUj0VAAAEAwBHMEUCIQDdo1N8yTb/UoWwCG2gNUWaFijHFz2FMGTTK046
-         FP/EmAIgF5PQ3n+1P2wPc58EV0tEm2z2ULVLEkheOgsHdVs8TQkAdQB6MoxU2Lct
-         tiDqOOBSHumEFnAyE4VNO9IrwTpXo1LrUgAAAYbjUj0dAAAEAwBGMEQCIGLuCOp9
-         ciwn2m4zL9Sn3cXVTFcsV7ZzSRmM//bbaJXiAiBci9MpZvtI2rbE1ivlq8O9vlIm
-         R4AmWQrQdoJVXutJRzANBgkqhkiG9w0BAQsFAAOCAQEAhnwrLvwqSTaPANOwrL7B
-         LdQGtO2vsWhIPbAU841UDlc5uD/tSBaSzJruceIuyySxM0XVUBUZKslQzJiRKLA5
-         yk0JTjzBu2CrXb4pz7lJena13iv/v9Zd7OVh0tWslZE43Nu94wju9cpgY0hwshkI
-         WzyOXC04O1bjWxZb1QG0hQIlaFhKVdKZEMh6igH5NVHL2qiCbZNclTrevnJxBbMc
-         cqclO8Tkt5nYQRPvID2w2yXJPUcTsiyMMOwRaQPJ50UBTeCiF2Z1NPESb0G+osAf
-         NeHzLJV0la+oVZBLM8bUDH73MYEmeWqpzKmDUQHLQBwOzjmDSuoirYb8v2wldlV5
-         Tg==
-         -----END CERTIFICATE-----
     scanning:
       metadataStore:
       url: "" # Disable embedded integration since it's deprecated
