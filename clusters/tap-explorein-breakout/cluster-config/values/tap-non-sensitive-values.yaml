@@ -308,11 +308,11 @@ tap_install:
     metadata_store:
        ns_for_export_app_cert: "*"
        app_service_type: ClusterIP
-       ingress_enabled: "true"
-       ingress_domain: "demo.vmwareexploreindia.com"
-       tls:
-         secretName: tap-meta-secret
-         namespace: metadata-store
+#       ingress_enabled: "true"
+#       ingress_domain: "demo.vmwareexploreindia.com"
+#       tls:
+#         secretName: tap-meta-secret
+#         namespace: metadata-store
        db_host: postgresdb.tap.vmwareexploreindia.com
        db_user: admin
        db_password: psltest
