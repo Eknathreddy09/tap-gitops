@@ -319,7 +319,7 @@ tap_install:
        db_password: psltest
        db_name: metadatastore
        db_port: "5432"
-       db_sslmode: "verify-ca"
+       db_sslmode: "verify-full"
        db_max_open_conns: 10
        db_max_idle_conns: 100
        db_conn_max_lifetime: 60
