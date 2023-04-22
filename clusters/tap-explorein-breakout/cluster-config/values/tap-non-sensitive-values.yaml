@@ -363,6 +363,7 @@ tap_install:
     grype:
       namespace: "tap-workload" # (optional) Defaults to default namespace.
       targetImagePullSecret: "registries-credentials"
+  
     contour:
        envoy:
          service:
