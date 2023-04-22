@@ -289,6 +289,14 @@ tap_install:
             baseUrl: https://tap-gui.demo.vmwareexploreindia.com
             title: 'SBI POC Developer Portal'
          backend:
+           database:
+             client: mariadb
+             connection:
+               host: spring-petclinic-db.tap-workload.svc.cluster.local
+               port: 3306
+               user: user
+               password: pass
+               ssl: false
            baseUrl: https://tap-gui.demo.vmwareexploreindia.com
            cors: 
              origin: https://tap-gui.demo.vmwareexploreindia.com
