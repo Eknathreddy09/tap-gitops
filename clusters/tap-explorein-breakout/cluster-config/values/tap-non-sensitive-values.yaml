@@ -309,16 +309,16 @@ tap_install:
     metadata_store:
        ns_for_export_app_cert: "*"
        app_service_type: ClusterIP
-       db_host: postgresdb.tap.vmwareexploreindia.com
-       db_user: admin
-       db_password: psltest
-       db_name: metadatastore
-       db_port: "5432"
-       db_sslmode: "verify-full"
-       db_max_open_conns: 10
-       db_max_idle_conns: 100
-       db_conn_max_lifetime: 60
-       deploy_internal_db: "true"
+#       db_host: postgresdb.tap.vmwareexploreindia.com
+#       db_user: admin
+#       db_password: psltest
+#       db_name: metadatastore
+#       db_port: "5432"
+#       db_sslmode: "verify-full"
+#       db_max_open_conns: 10
+#       db_max_idle_conns: 100
+#       db_conn_max_lifetime: 60
+#       deploy_internal_db: "true"
     
     scanning:
       metadataStore:
