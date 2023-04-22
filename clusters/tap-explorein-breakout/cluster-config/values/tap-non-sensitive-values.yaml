@@ -311,8 +311,8 @@ tap_install:
        ingress_enabled: "true"
        ingress_domain: "demo.vmwareexploreindia.com"
        tls:
-         secretName: tap-gui-secret
-         namespace: tap-gui
+         secretName: tap-meta-secret
+         namespace: metadata-store
        db_host: postgresdb.tap.vmwareexploreindia.com
        db_user: admin
        db_password: psltest
@@ -323,10 +323,10 @@ tap_install:
        db_max_idle_conns: 100
        db_conn_max_lifetime: 60
        deploy_internal_db: "true"   
+
     scanning:
       metadataStore:
         url: "" # Disable embedded integration since it's deprecated
-    
     grype:
       namespace: "tap-workload" # (optional) Defaults to default namespace.
       targetImagePullSecret: "registries-credentials"
