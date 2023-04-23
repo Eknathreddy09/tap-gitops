@@ -141,9 +141,9 @@ tap_install:
       gitops:
           server_address: https://github.com/
           repository_owner: explore-india-booth
-          repository_name: spring-tap-petclinic
+          repository_name: exploresol-repo-delivery
           ssh_secret: "git-secret"
-          branch: "accelerator"
+          branch: "main"
           commit_strategy: pull_request
           pull_request:
             server_kind: github
