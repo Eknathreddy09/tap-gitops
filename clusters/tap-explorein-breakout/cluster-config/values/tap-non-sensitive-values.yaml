@@ -310,7 +310,6 @@ tap_install:
                 links:
                 - url: https://docs.vmware.com/en/VMware-Tanzu-Application-Platform/index.html
                   title: Tanzu Application Platform Documentation
-                  
          backend:
            database:
              client: pg
