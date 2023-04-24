@@ -266,6 +266,15 @@ tap_install:
           namespace: tap-gui
           secretName: tap-gui-secret
        app_config:
+         techdocs:
+            builder: 'external'
+            publisher:
+              type: 'azureBlobStorage'
+              azureBlobStorage:
+                containerName: 'capvtaptechdoocs-container'
+                credentials:
+                  accountName: 'capvtaptechdocs'
+                  accountKey: 'AjzlZ4rJTiru0FWZ6zGI2ZZdkOAqCnN6b0qc/5CFgyAcI4IoRtpBMRwqVe4t4QULrwwFIX79DQ0y+AStwkW05g=='
          organization:
            name: 'SBI'
          customize:
