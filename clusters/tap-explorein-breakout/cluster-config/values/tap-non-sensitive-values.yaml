@@ -271,10 +271,10 @@ tap_install:
             publisher:
               type: 'azureBlobStorage'
               azureBlobStorage:
-                containerName: 'capvtaptechdoocs-container'
+                containerName: 'taptechdocscontainer'
                 credentials:
-                  accountName: 'capvtaptechdocs'
-                  accountKey: 'gjhUGsDPTPcRCBsh9qvWwYeZwvN73mqpbcQ4SH3ZijF/zcgFZYBco+5aSpqs+75m/SfOwxvZg8Ok+AStjUQCpQ=='
+                  accountName: 'taptechdocsblob'
+                  accountKey: 'OCOHumPLlSDkwawWLPWd1BvBsV77Lib95Dh5xuiIFfBz4kwHSVPLnaeEVUIJQJolAYzvPa29/RYG+AStDcv2Gg=='
          organization:
            name: 'SBI'
          customize:
