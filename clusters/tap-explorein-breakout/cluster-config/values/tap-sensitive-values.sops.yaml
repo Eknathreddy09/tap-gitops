@@ -15,7 +15,6 @@ tap_install:
                         - host: ENC[AES256_GCM,data:+6c+ttzU5qisUA==,iv:h/ymoFsJUHo8gvcFVFp1d6sfjSyX4GEEIVzvDt8OflU=,tag:goNILcEn928HO+u9oOtzjw==,type:str]
                           token: ENC[AES256_GCM,data:prin5DeL273kGRKGsOrwm5HbG7pKFWTaYsuNapD3+zqP3BmD6TNN2A==,iv:qdVKUsErcbcNwkRDWthAqO8O21nrJ4Tj794zkHkx+Uc=,tag:qXmRz4uu5QsX3QDLdz3r3g==,type:str]
                 techdocs:
-                    builder: ENC[AES256_GCM,data:opuf+2W97U4=,iv:2zQfkiG7iw9xIgCwYQcQVQZrNgqVu68IaD12EVRMmk0=,tag:HFFI6uiD058l4jiUuhZk+g==,type:str]
                     publisher:
                         type: ENC[AES256_GCM,data:5CPooSBB0c0/ivnROYAZig==,iv:OzMk8hqR1gdNPCATy1X67KzipNLxN2Lyepp8g6I5iaw=,tag:X0WkRloKet8EMsJ9njMEJw==,type:str]
                         azureBlobStorage:
@@ -52,8 +51,8 @@ sops:
             RG1oS1pHZmlOU3huUDdiYjNkWHlEZ3MKnDT6CUcZwEGcWzUPypi42OahbaQWfrt2
             XNkkycDGuoeyWBWEsQZvp/NHOY8GcG5vVLIQvrro6CqWTgoW3kclRg==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2023-04-24T11:52:22Z"
-    mac: ENC[AES256_GCM,data:HqR8nTljLFyhBekzD6ltjRbghvl/Ee0LHi2U9IGRY5jvBfzdhnMq2LlKXL8KJx9Z6daEqzxborv3KqI6CnRU+lXbVFLeavBe93MllM8m2a/DJNH8Ezs1+/VLA22TkmZsbzj5nw65bmi8Lvjqc0a4C2XrPpKidzfavatlWErWXyU=,iv:Z19Ek+OBQmL7KPGgqFVCtUHx8/068ux+UGkkhakaUCo=,tag:uNN/NT6pwQZwO4BOp6ywHQ==,type:str]
+    lastmodified: "2023-04-24T12:12:10Z"
+    mac: ENC[AES256_GCM,data:snle9Ru9RFMSd864FUHVq+Pood+gjcy+FQIUSciUobYE4TDPP499ajQxxUpvIw79aNVya8Ga0SdbIE0F6CFf6yAVcgY8AeX1XShLpq4RZ+zj9sufniLTTDuEe9sQLuh6JXPFSMURHKoKIZHmSm4trHjV2YN0qC2teAji1VK/87o=,iv:nURPGNCluOZcuaP2PKa5vxOacwFh6Sw7+dvGxvIOWOE=,tag:8r/T1A6LLIfxfTu6PSHYdQ==,type:str]
     pgp: []
     unencrypted_suffix: _unencrypted
     version: 3.7.3
