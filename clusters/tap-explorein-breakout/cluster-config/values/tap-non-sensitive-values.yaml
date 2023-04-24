@@ -274,7 +274,7 @@ tap_install:
                 containerName: 'capvtaptechdoocs-container'
                 credentials:
                   accountName: 'capvtaptechdocs'
-                  accountKey: 'AjzlZ4rJTiru0FWZ6zGI2ZZdkOAqCnN6b0qc/5CFgyAcI4IoRtpBMRwqVe4t4QULrwwFIX79DQ0y+AStwkW05g=='
+                  accountKey: 'gjhUGsDPTPcRCBsh9qvWwYeZwvN73mqpbcQ4SH3ZijF/zcgFZYBco+5aSpqs+75m/SfOwxvZg8Ok+AStjUQCpQ=='
          organization:
            name: 'SBI'
          customize:
