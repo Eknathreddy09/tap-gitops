@@ -257,6 +257,7 @@ tap_install:
        tls:
          namespace: accelerator-system
          secret_name: tls
+         
     tap_gui:
        service_type: ClusterIP
        metadataStoreAutoconfiguration: true
