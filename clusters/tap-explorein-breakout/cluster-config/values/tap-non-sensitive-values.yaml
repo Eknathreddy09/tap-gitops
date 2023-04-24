@@ -294,7 +294,7 @@ tap_install:
                 icon: email
                 links:
                 - url: https://tanzu.vmware.com/support
-                  title: Tanzu Support Page
+                  title: Tanzu and SBI POC Team
               - title: Documentation
                 icon: docs
                 links:
