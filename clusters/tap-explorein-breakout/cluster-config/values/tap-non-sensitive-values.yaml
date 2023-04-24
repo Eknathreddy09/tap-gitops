@@ -276,6 +276,7 @@ tap_install:
                 credentials:
                   accountName: 'taptechdocsblob'
                   accountKey: 'OCOHumPLlSDkwawWLPWd1BvBsV77Lib95Dh5xuiIFfBz4kwHSVPLnaeEVUIJQJolAYzvPa29/RYG+AStDcv2Gg=='
+                  
          organization:
            name: 'SBI'
          customize:
