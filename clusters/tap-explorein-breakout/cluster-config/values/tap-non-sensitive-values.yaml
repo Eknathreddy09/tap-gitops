@@ -257,6 +257,7 @@ tap_install:
        tls:
          namespace: accelerator-system
          secret_name: tls
+         
     tap_gui:
        service_type: ClusterIP
        metadataStoreAutoconfiguration: true
@@ -266,6 +267,15 @@ tap_install:
           namespace: tap-gui
           secretName: tap-gui-secret
        app_config:
+         techdocs:
+            builder: 'external'
+            publisher:
+              type: 'azureBlobStorage'
+              azureBlobStorage:
+                containerName: 'taptechdocscontainer'
+                credentials:
+                  accountName: 'taptechdocsblob'
+                  accountKey: 'OCOHumPLlSDkwawWLPWd1BvBsV77Lib95Dh5xuiIFfBz4kwHSVPLnaeEVUIJQJolAYzvPa29/RYG+AStDcv2Gg=='
          organization:
            name: 'SBI'
          customize:
@@ -284,6 +294,7 @@ tap_install:
                serviceAccountToken: ${KUBERNETES_SERVICE_ACCOUNT_TOKEN}
                skipTLSVerify: true
                skipMetricsLookup: false
+               
          app:
             baseUrl: https://tap-gui.demo.vmwareexploreindia.com
             title: 'SBI POC Developer Portal'
@@ -318,6 +329,8 @@ tap_install:
                target: https://github.com/Eknathreddy09/tanzu-java-web-app/blob/main/catalog/catalog-info.yaml
              - type: url
                target: https://github.com/explore-india-booth/spring-tap-petclinic/blob/accelerator/catalog/catalog-info.yaml
+             - type: url
+               target: http://github.com/dineshtripathi30/tanzuapp/blob/main/blank/catalog-info.yaml
     
     scanning:
       metadataStore:
@@ -331,7 +344,6 @@ tap_install:
        envoy:
          service:
            type: LoadBalancer
-           
     cnrs:
       default_tls_secret: "tap-workload/ca-cert"
       domain_name: demo.vmwareexploreindia.com
