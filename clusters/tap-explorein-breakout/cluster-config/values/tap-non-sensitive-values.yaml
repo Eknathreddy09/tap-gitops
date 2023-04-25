@@ -257,7 +257,8 @@ tap_install:
        tls:
          namespace: accelerator-system
          secret_name: tls
-         
+    api_auto_registration:
+      tap_gui_url: https://tap-gui.demo.vmwareexploreindia.com
     tap_gui:
        service_type: ClusterIP
        metadataStoreAutoconfiguration: true
