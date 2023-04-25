@@ -14,6 +14,11 @@ tap_install:
                     github:
                         - host: ENC[AES256_GCM,data:+6c+ttzU5qisUA==,iv:h/ymoFsJUHo8gvcFVFp1d6sfjSyX4GEEIVzvDt8OflU=,tag:goNILcEn928HO+u9oOtzjw==,type:str]
                           token: ENC[AES256_GCM,data:prin5DeL273kGRKGsOrwm5HbG7pKFWTaYsuNapD3+zqP3BmD6TNN2A==,iv:qdVKUsErcbcNwkRDWthAqO8O21nrJ4Tj794zkHkx+Uc=,tag:qXmRz4uu5QsX3QDLdz3r3g==,type:str]
+                techdocs:
+                    publisher:
+                        azureBlobStorage:
+                            credentials:
+                                accountKey: ENC[AES256_GCM,data:2UkZJxofMCfmYzbFrGSAERAZr2NqGm8B0A+CQ1BCk3krXAgzomWtozVNdjzaqBAjD2QxvVln7mszxZtWiLVIizoqqFusygNW2/O7Nss15PJNjwBE6ukJCg==,iv:oo585I9WDGO5NAc2nmiEV2EgiehFirOx9/LlBU+wGyU=,tag:o+l0on09DZEc2HrwhVwMIg==,type:str]
         metadata_store:
             ns_for_export_app_cert: ENC[AES256_GCM,data:hQ==,iv:a/rCc26qWN/kKcXceWlV0j1UZ4gamqCJiKnYrVilmTs=,tag:+P5hfSpOR4JNvZBvWLbuNA==,type:str]
             app_service_type: ENC[AES256_GCM,data:l9q+RkCc1ejD,iv:3WT5fdcLafzGNxaT9lLakOvTlgF3mV0vN3n/GUAYHfM=,tag:CsLd3J/Ls9aNq33fD1Ko3A==,type:str]
@@ -43,8 +48,8 @@ sops:
             RG1oS1pHZmlOU3huUDdiYjNkWHlEZ3MKnDT6CUcZwEGcWzUPypi42OahbaQWfrt2
             XNkkycDGuoeyWBWEsQZvp/NHOY8GcG5vVLIQvrro6CqWTgoW3kclRg==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2023-04-24T14:03:22Z"
-    mac: ENC[AES256_GCM,data:lpIy3LWV/9E1ai8VR7semlVT5Q3boewf/UUndpJJSy5q6LHW7O44hLWyrjlaghVKzbnJfEcxvZ5G1q8OIQTjMQE8G1tz/0UTraqRSIGJIQc+RPGIssbLZVk4bI1e4D+dwUcanQg+AWrAaF7IZwtRL541UnFEDX7pnvFPvdCpofY=,iv:1xILs0Fjqi2p1UADtz1xg/OpkzlXEPqqx0LyMGqGYzw=,tag:Ct52TgQnay8qlE37PbsmXA==,type:str]
+    lastmodified: "2023-04-25T01:15:49Z"
+    mac: ENC[AES256_GCM,data:TulJxKBFjO1DmpdAXn7Y6X1M8LrSvBJ7BBJmZQSK8yFmNBjXy+HvdHjCzZKZJy6TqWnlQ3atuwcpu3d3eaBlxizlPRKkR9B/tNIZxXIKciq01URpSCyyDJj78R/fxjS4VIJlcCnkALUXHgaakeyso7R+BeFguZm/WmskeoL1mEE=,iv:Lt6lyAeUfqCg+fbbeKctOl+kieW1T8DT4VFvGLHmqJE=,tag:Zq0zxEdk6Fvyy25CBX6Ybw==,type:str]
     pgp: []
     unencrypted_suffix: _unencrypted
     version: 3.7.3
