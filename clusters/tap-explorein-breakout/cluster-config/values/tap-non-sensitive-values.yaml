@@ -275,7 +275,6 @@ tap_install:
                 containerName: 'taptechdocscontainer'
                 credentials:
                   accountName: 'taptechdocsblob'
-                  accountKey: 'OCOHumPLlSDkwawWLPWd1BvBsV77Lib95Dh5xuiIFfBz4kwHSVPLnaeEVUIJQJolAYzvPa29/RYG+AStDcv2Gg=='
          organization:
            name: 'SBI'
          customize:
@@ -318,7 +317,6 @@ tap_install:
                host: postgresdb.tap.vmwareexploreindia.com
                port: 5432
                user: admin
-               password: psltest
                ssl: false
            baseUrl: https://tap-gui.demo.vmwareexploreindia.com
            cors: 
