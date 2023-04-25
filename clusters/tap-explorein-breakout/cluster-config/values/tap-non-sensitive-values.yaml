@@ -293,7 +293,6 @@ tap_install:
                serviceAccountToken: ${KUBERNETES_SERVICE_ACCOUNT_TOKEN}
                skipTLSVerify: true
                skipMetricsLookup: false
-               
          app:
             baseUrl: https://tap-gui.demo.vmwareexploreindia.com
             title: 'SBI POC Developer Portal'
