@@ -341,7 +341,6 @@ tap_install:
     api_portal:
       apiPortalServer:
         sourceUrls: "https://petstore.swagger.io/v2/swagger.json, https://petstore3.swagger.io/api/v3/openapi.json"
-        trustInsecureSourceUrls: true
         title: "SBI API Portal"
         description: "This is for POC"
         ingressDomain: "demo.vmwareexploreindia.com"
