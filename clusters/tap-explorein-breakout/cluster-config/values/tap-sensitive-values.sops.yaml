@@ -19,6 +19,10 @@ tap_install:
                         azureBlobStorage:
                             credentials:
                                 accountKey: ENC[AES256_GCM,data:2UkZJxofMCfmYzbFrGSAERAZr2NqGm8B0A+CQ1BCk3krXAgzomWtozVNdjzaqBAjD2QxvVln7mszxZtWiLVIizoqqFusygNW2/O7Nss15PJNjwBE6ukJCg==,iv:oo585I9WDGO5NAc2nmiEV2EgiehFirOx9/LlBU+wGyU=,tag:o+l0on09DZEc2HrwhVwMIg==,type:str]
+                backend:
+                    database:
+                        connection:
+                            password: ENC[AES256_GCM,data:jvVF1sfKkg==,iv:iaUDzLUcZ66xfEl7VjY3PH1M4IOn7WQl4NbHrH/gEgk=,tag:d+mMz2/c8iojyF/f62M/tQ==,type:str]
         metadata_store:
             ns_for_export_app_cert: ENC[AES256_GCM,data:hQ==,iv:a/rCc26qWN/kKcXceWlV0j1UZ4gamqCJiKnYrVilmTs=,tag:+P5hfSpOR4JNvZBvWLbuNA==,type:str]
             app_service_type: ENC[AES256_GCM,data:l9q+RkCc1ejD,iv:3WT5fdcLafzGNxaT9lLakOvTlgF3mV0vN3n/GUAYHfM=,tag:CsLd3J/Ls9aNq33fD1Ko3A==,type:str]
@@ -48,8 +52,8 @@ sops:
             RG1oS1pHZmlOU3huUDdiYjNkWHlEZ3MKnDT6CUcZwEGcWzUPypi42OahbaQWfrt2
             XNkkycDGuoeyWBWEsQZvp/NHOY8GcG5vVLIQvrro6CqWTgoW3kclRg==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2023-04-25T01:15:49Z"
-    mac: ENC[AES256_GCM,data:TulJxKBFjO1DmpdAXn7Y6X1M8LrSvBJ7BBJmZQSK8yFmNBjXy+HvdHjCzZKZJy6TqWnlQ3atuwcpu3d3eaBlxizlPRKkR9B/tNIZxXIKciq01URpSCyyDJj78R/fxjS4VIJlcCnkALUXHgaakeyso7R+BeFguZm/WmskeoL1mEE=,iv:Lt6lyAeUfqCg+fbbeKctOl+kieW1T8DT4VFvGLHmqJE=,tag:Zq0zxEdk6Fvyy25CBX6Ybw==,type:str]
+    lastmodified: "2023-04-25T01:20:01Z"
+    mac: ENC[AES256_GCM,data:ZUyyeFY8DZM1w54kNGqurmquPBah9CdVUeTQg/jTnLqucnnDZt3QisEA3xauw/KAEAXqYZqdGpBmA5Np6CZGvc68l1XZo1LFvra+nVG6p4bga/XTEgkYjbEYRq2FUDs17wRcGnjwD/FaAsjJT6cPd1d2yA8p7fCLuDaH6Cy2x+I=,iv:CcwGyDsXNyE/91kU6pjkCS1F+ZktyMHvH8bpZKrCVto=,tag:t9RlG4NnMwh4t0XVap7zdw==,type:str]
     pgp: []
     unencrypted_suffix: _unencrypted
     version: 3.7.3
