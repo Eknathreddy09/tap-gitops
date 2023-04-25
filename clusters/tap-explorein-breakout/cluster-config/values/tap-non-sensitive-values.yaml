@@ -337,7 +337,11 @@ tap_install:
     grype:
       namespace: "tap-workload" # (optional) Defaults to default namespace.
       targetImagePullSecret: "registries-credentials"
-    
+      
+    api_portal:
+      apiPortalServer:
+        sourceUrls: "http://scg-operator.tap-install.svc.cluster.local/openapi, https://petstore.swagger.io/v2/swagger.json"
+        trustInsecureSourceUrls: true
     contour:
        envoy:
          service:
