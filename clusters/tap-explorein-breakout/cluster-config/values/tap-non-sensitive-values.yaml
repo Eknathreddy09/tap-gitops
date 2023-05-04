@@ -127,6 +127,7 @@ tap_install:
     excluded_packages:
     - policy.apps.tanzu.vmware.com
     - workshops.learningcenter.tanzu.vmware.com
+    - cnrs.tanzu.vmware.com
     supply_chain: testing_scanning
     ootb_supply_chain_testing_scanning:
       scanning:
@@ -294,6 +295,18 @@ tap_install:
                serviceAccountToken: ${KUBERNETES_SERVICE_ACCOUNT_TOKEN}
                skipTLSVerify: true
                skipMetricsLookup: false
+             - url: https://demo-tkg211-run-01-94f52d84.westus2.cloudapp.azure.com:6443
+               name: demo-tkg211-run-01
+               authProvider: serviceAccount
+               serviceAccountToken: eyJhbGciOiJSUzI1NiIsImtpZCI6InFSTllTd0NUcEhMU0JtelBITldPOG1zYmxpLVJTbFVwWVhtUlI3cDZmUmMifQ.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJ0YXAtZ3VpIiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZWNyZXQubmFtZSI6InRhcC1ndWktdmlld2VyIiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZXJ2aWNlLWFjY291bnQubmFtZSI6InRhcC1ndWktdmlld2VyIiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZXJ2aWNlLWFjY291bnQudWlkIjoiMjcxZWFkOGEtYjg0NC00MTM5LTg3YzEtZWY2YTNjNTRjZmI4Iiwic3ViIjoic3lzdGVtOnNlcnZpY2VhY2NvdW50OnRhcC1ndWk6dGFwLWd1aS12aWV3ZXIifQ.qKY-VQJudUvg2E8JoMDD6so0Ma3kcPSk9dkf-7bd9qFrFceB2SQBQXAlepIywZ-b0GSfQNrz9zqe98hV8JxKEnnWbrzHMu4v_Wi2_ZXHBCFI9K92-K1MrPnjSg2Vj9nUICjyc-hHHNK8X4p46tv-VRnF2Kc-2kziPovth_r0WPNVurNDZ1y6VEsTI7Y5eD5l9rlHjy87bzIQwzNouYiQUUrBmS0ij20A74RaSVAjhBGgABBFStTlCY_YhpsFNQ1vzJtBs_mhLcHsW7uTDCAhlyUXTikGmDbckGT7VMNARYDuvljr4dhfppCN5BsmzsbpYRwYxL9KJ9jlpmn2BC-J1Q
+               skipTLSVerify: true
+               skipMetricsLookup: true
+             - url: https://demo-aks-run-02-dns-h1lrqxb5.hcp.westus2.azmk8s.io:443
+               name: demo-aks-run-02
+               authProvider: serviceAccount
+               serviceAccountToken: eyJhbGciOiJSUzI1NiIsImtpZCI6IlltcVFBVDlWOVFGMWk2SjREYmxHR2Jkc1dVTjdEREdDaUhQWDV0TVlaTGcifQ.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJ0YXAtZ3VpIiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZWNyZXQubmFtZSI6InRhcC1ndWktdmlld2VyIiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZXJ2aWNlLWFjY291bnQubmFtZSI6InRhcC1ndWktdmlld2VyIiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZXJ2aWNlLWFjY291bnQudWlkIjoiZTI5MzJkMWMtNjgwNy00NTVhLWE5NTEtNjhmZWM3Y2I0YTM3Iiwic3ViIjoic3lzdGVtOnNlcnZpY2VhY2NvdW50OnRhcC1ndWk6dGFwLWd1aS12aWV3ZXIifQ.Vh70lpYFUqCqiZWb9L0-1AgFha2lwodjWuvOvUeFVCQ5x5K9h3jKyx1M7nCr9mHltk1_wABllj87U3ALz23OFh6WPCEXRd8d2EcsqxOhdjvOoH1I9-bJlA4vnu-IdtH-vAns1KcIYRRgRvhbilLxciBlRZnB0rySbQlA4YM-v2tzoZQZI9JhgcBlwtBBERmJSPGx62PUvUlJmB_Nav41s5QhZasvKF0irbz9YSDLsSb9vmLkY5ple6_K5fatOBWeX9ynY62F9o0uQNPHSo0zUnlwXVoUccrgYX5sT4w6kkgWZlbQKRtaRpttImn6rBguQA9u-x0rVQAcAO2Xjoe25Gx4saPwdb7n9dGaRuauHRNLXuU_jjTeup6Z__7AyKFatJg1v-2ue8MX1i7vaU5x3mHNfF8lzEY_6G9pjAPMJGqJClU-sPFZxP9_CJEikRfMPdGmnsAuU1Zhxa3FBHDObYO8RQVrJFcPuTS1lre2RyjKTtktjNJ7X_B8Hs1OrNRZlTZvfLmWUgsyrx8Oas2_Exm76sFWQcZu02O2VeHYy7FsFxXUoxbbEk0mVsOt9eiSfl9heiAwTFho3smWzb1cqjDTV_QSiF9vEVJ1cN7HigE7YRKExW9eRy4n9WpJeY9EIam12VbE4CfiDG_9pMkGZaKDaVw4y94j4RZn4QsR4kU
+               skipTLSVerify: true
+               skipMetricsLookup: true
          app:
             baseUrl: https://tap-gui.demo.vmwareexploreindia.com
             title: 'SBI POC Developer Portal'
