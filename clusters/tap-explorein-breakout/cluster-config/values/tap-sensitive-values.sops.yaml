@@ -4,6 +4,7 @@ tap_install:
             image_registry:
                 password: ENC[AES256_GCM,data:L8weN+klyHAvhjg4J+l2P0WlDmNQzuzKbb5nnXly3+b8PoXyiIVH4dpynXj6lm1I6HvxeQ==,iv:HwmED9lYQ0lWYEQrSjKaYii1RUAu4U/FDUamxZye3Jc=,tag:BcvJeZQOwLRycTdP/CNIMQ==,type:str]
         buildservice:
+            injected_sidecar_support: ENC[AES256_GCM,data:/BJqSA==,iv:rXO0J3jBKEnKcIKz5xjCQjWHYNvtuIEovxvC4pzJtdg=,tag:gtI7kSZ3H1DznotVwrz0ig==,type:bool]
             exclude_dependencies: ENC[AES256_GCM,data:/rbz7w==,iv:hPBiGR01xvfvDw2WU362azvYfL7tGw69/8yKAXhwyy8=,tag:kVRCTfq/yWC3uK2XGNxK8A==,type:bool]
             kp_default_repository: ENC[AES256_GCM,data:L+nF11FSb04qT39XqwPsC4aeE1uFsQIXXpvh1C99BPeJPIPA8aUfFg0qYWLND0sUlILR8PY=,iv:GfDDiVCTmeN9EOLfygkQ2+uTWHDDmKpwCZgXIah8oQM=,tag:IjofL+J/I3n1bXaA015zdQ==,type:str]
             kp_default_repository_username: ENC[AES256_GCM,data:tT2WLjn3uHZLkWTvP6a0X9KcegLf,iv:UlAbCO+m2zawPdsFYdGhmECAig7kq6tqx1t985wP36k=,tag:zVGRNzvtEAvRib/hFP2yxQ==,type:str]
@@ -52,8 +53,8 @@ sops:
             RG1oS1pHZmlOU3huUDdiYjNkWHlEZ3MKnDT6CUcZwEGcWzUPypi42OahbaQWfrt2
             XNkkycDGuoeyWBWEsQZvp/NHOY8GcG5vVLIQvrro6CqWTgoW3kclRg==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2023-04-25T01:20:01Z"
-    mac: ENC[AES256_GCM,data:ZUyyeFY8DZM1w54kNGqurmquPBah9CdVUeTQg/jTnLqucnnDZt3QisEA3xauw/KAEAXqYZqdGpBmA5Np6CZGvc68l1XZo1LFvra+nVG6p4bga/XTEgkYjbEYRq2FUDs17wRcGnjwD/FaAsjJT6cPd1d2yA8p7fCLuDaH6Cy2x+I=,iv:CcwGyDsXNyE/91kU6pjkCS1F+ZktyMHvH8bpZKrCVto=,tag:t9RlG4NnMwh4t0XVap7zdw==,type:str]
+    lastmodified: "2023-05-04T11:17:47Z"
+    mac: ENC[AES256_GCM,data:VuiwD459Q7fjPGsLV+9PZfQ+tfdbglAYTo4I1X6rRw4VDmllvj2Rk+Cj59gQ+4T4yNeZNQcvBnszgQem5xcA39GPBdZRXfjpgkGozO1U4KzTw+dQhGVJLUVl2txwcvK2bI0oFL1DDtBXrI5lFW7/jiIOnYgaXZJ8q1KKRGSvYrg=,iv:1dGVNVV3puikVfHfFB3SEWZImuhAs5LogjE8Xy1dew8=,tag:CJVlX1sHI62K3zSCF74DJA==,type:str]
     pgp: []
     unencrypted_suffix: _unencrypted
     version: 3.7.3
