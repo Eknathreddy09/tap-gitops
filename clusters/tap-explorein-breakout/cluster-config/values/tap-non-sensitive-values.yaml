@@ -342,7 +342,18 @@ tap_install:
                target: https://github.com/explore-india-booth/spring-tap-petclinic/blob/accelerator/catalog/catalog-info.yaml
              - type: url
                target: http://github.com/dineshtripathi30/tanzuapp/blob/main/blank/catalog-info.yaml
-    
+             - type: url
+               target: https://github.com/explore-india-booth/acme-fitness-store/blob/main/apps/acme-payment/catalog/catalog-info.yaml
+             - type: url
+               target: https://github.com/explore-india-booth/acme-fitness-store/blob/main/apps/acme-shopping/catalog/catalog-info.yaml
+             - type: url
+               target: https://github.com/explore-india-booth/acme-fitness-store/blob/main/apps/acme-order/catalog/catalog-info.yaml
+             - type: url
+               target: https://github.com/explore-india-booth/acme-fitness-store/blob/main/apps/acme-identity/catalog/catalog-info.yaml
+             - type: url
+               target: https://github.com/explore-india-booth/acme-fitness-store/blob/main/apps/acme-catalog/catalog/catalog-info.yaml
+             - type: url
+               target: https://github.com/explore-india-booth/acme-fitness-store/blob/main/apps/acme-cart/catalog/catalog-info.yaml
     scanning:
       metadataStore:
         url: "" # Disable embedded integration since it's deprecated
