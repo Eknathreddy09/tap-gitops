@@ -313,7 +313,7 @@ tap_install:
                skipMetricsLookup: true
          app:
             baseUrl: https://tap-gui.demo.vmwareexploreindia.com
-            title: 'TCS Developer Portal'
+            title: 'Garrett Developer Portal'
             support:
               url: https://tanzu.vmware.com/support
               items:
@@ -321,7 +321,7 @@ tap_install:
                 icon: email
                 links:
                 - url: https://tanzu.vmware.com/support
-                  title: Tanzu and TCS COE Team
+                  title: Tanzu and Garrett COE Team
               - title: Documentation
                 icon: docs
                 links:
@@ -369,7 +369,7 @@ tap_install:
     api_portal:
       apiPortalServer:
         sourceUrls: "https://petstore.swagger.io/v2/swagger.json, https://petstore3.swagger.io/api/v3/openapi.json"
-        title: "TCS API Portal"
+        title: "Garrett API Portal"
         description: "This is for POC"
         ingressDomain: "demo.vmwareexploreindia.com"
         caCertData: |
