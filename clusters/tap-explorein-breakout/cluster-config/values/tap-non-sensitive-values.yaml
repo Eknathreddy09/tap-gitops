@@ -321,7 +321,7 @@ tap_install:
                 icon: email
                 links:
                 - url: https://tanzu.vmware.com/support
-                  title: Tanzu and Garrett COE Team
+                  title: Tanzu Team
               - title: Documentation
                 icon: docs
                 links:
