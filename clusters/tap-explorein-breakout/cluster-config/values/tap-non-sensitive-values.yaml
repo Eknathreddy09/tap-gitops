@@ -97,6 +97,16 @@ tap_install:
         project_path: "exploreindiatapsolreg.azurecr.io/tap150/tap-packages"
         username: "exploreindiatapsolreg"
     ceip_policy_disclosed: true
+    bitnami_services:
+      globals:
+        helm_chart:
+          repo: oci://registry.pivotal.io/tac-for-tanzu-advanced/charts # update this
+          chart_pull_secret_ref:
+            name: vac-chart-pull
+            namespace: default
+          container_pull_secret_ref:
+            name: vac-container-pull
+            namespace: default
     namespace_provisioner:
       sync_period: 30s
       controller: true
