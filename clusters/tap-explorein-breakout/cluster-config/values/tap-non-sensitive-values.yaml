@@ -137,8 +137,8 @@ tap_install:
     excluded_packages:
     - policy.apps.tanzu.vmware.com
     - workshops.learningcenter.tanzu.vmware.com
-    - cnrs.tanzu.vmware.com
-    - ootb-delivery-basic.tanzu.vmware.com
+#    - cnrs.tanzu.vmware.com
+#    - ootb-delivery-basic.tanzu.vmware.com
     supply_chain: testing_scanning
     ootb_supply_chain_testing_scanning:
       scanning:
