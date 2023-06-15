@@ -273,6 +273,7 @@ tap_install:
     tap_gui:
        service_type: ClusterIP
        metadataStoreAutoconfiguration: true
+       activateAppLiveViewSecureAccessControl: false
        ingressEnabled: "true"
        ingressDomain: "demo.vmwareexploreindia.com"
        tls:
