@@ -312,10 +312,10 @@ tap_install:
                serviceAccountToken: ${KUBERNETES_SERVICE_ACCOUNT_TOKEN}
                skipTLSVerify: true
                skipMetricsLookup: false
-             - url: https://demo-tkg211-run-01-94f52d84.westus2.cloudapp.azure.com:6443
-               name: demo-tkg211-run-01
+             - url: https://demo-tkgm-run-01-2ea66a4d.westus2.cloudapp.azure.com:6443
+               name: demo-tkgm-run-01
                authProvider: serviceAccount
-               serviceAccountToken: eyJhbGciOiJSUzI1NiIsImtpZCI6InFSTllTd0NUcEhMU0JtelBITldPOG1zYmxpLVJTbFVwWVhtUlI3cDZmUmMifQ.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJ0YXAtZ3VpIiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZWNyZXQubmFtZSI6InRhcC1ndWktdmlld2VyIiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZXJ2aWNlLWFjY291bnQubmFtZSI6InRhcC1ndWktdmlld2VyIiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZXJ2aWNlLWFjY291bnQudWlkIjoiNjQ3MWE2YWMtMGQ4NS00NmIyLTg5NDItYWNmYmE4YzVhNDVlIiwic3ViIjoic3lzdGVtOnNlcnZpY2VhY2NvdW50OnRhcC1ndWk6dGFwLWd1aS12aWV3ZXIifQ.ZxYDdFAYA2Ww--DJHZMOk4DYNr-buTTTY6_GDry62nCBbr6f27PgagtPolJxMi-Sbg50Y7PhUIwMPp6eDvee9g7w5aK15hsNhSavAXaCfZdagGpmM9U2A83qFW2tNv2PM1RIdc12su-G3iphFbTEsHLZsq_HpmvPbBROetxreBw7GMY3mavCHYiyoemiGQXfxdf3A5kLDrHWU4vtLEVtwh6b2ZYI5OUlrw5Elk9k2k3ynAEyAiSmeG9uTdCEybkYrL1c2l88a_IsPiDYZQ-m-VRtNu96UpVAI_wf7liZy9qauynVjCHPOMMLEE27OcwLtdTvHtyQ-kLmiQ_ygzOwyw
+               serviceAccountToken: eyJhbGciOiJSUzI1NiIsImtpZCI6IlNKVjVMdElmUFNDcWN6LVlqOUlWWkpBQUdHNVU0UmpPN1MwM19JR1NKNDgifQ.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJ0YXAtZ3VpIiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZWNyZXQubmFtZSI6InRhcC1ndWktdmlld2VyIiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZXJ2aWNlLWFjY291bnQubmFtZSI6InRhcC1ndWktdmlld2VyIiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZXJ2aWNlLWFjY291bnQudWlkIjoiOTU5NDA1MjAtZTYzYy00YWI3LTgxYjgtMjU3YjE2ZWNmOWM1Iiwic3ViIjoic3lzdGVtOnNlcnZpY2VhY2NvdW50OnRhcC1ndWk6dGFwLWd1aS12aWV3ZXIifQ.UDkVwNoR1o-40qjl7jyUIp9hb6c482UvXgfHMcUUJg2VCnsUgBx71ujZ_-FiXuxXL5j04hZj1jqEUtUipxcuvABK2Wa7FgTZ8SZ07RAD2NZHQtD9thcOq7J1D2MtYLaIPAk5kNjsTCcKupvCPxul7a8fgmwExX1Jof960cIK7zPpw4FX9UEZD7-2bAa0LK_5PIhpoBE956AQhJ4VbiLTY7-9SeavqOfv0XkrAXEEHA9K0z2fvvCbEdcaC26m-UmQxm1x_IiiNeEJoVh8Z3BNdSFq5rNjxUqVFMzVZEOgOTNh0UIzps5VNfraFdbXK5x0luxEZl-9_EO8aDRhwyhBdg
                skipTLSVerify: true
                skipMetricsLookup: true
              - url: https://demo-aks-run-02-dns-h1lrqxb5.hcp.westus2.azmk8s.io:443
