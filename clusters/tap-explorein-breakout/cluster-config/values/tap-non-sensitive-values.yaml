@@ -347,13 +347,6 @@ tap_install:
                 - url: https://docs.vmware.com/en/VMware-Tanzu-Application-Platform/index.html
                   title: Tanzu Application Platform Documentation
          backend:
-           database:
-             client: pg
-             connection:
-               host: postgresdb.tap.vmwareexploreindia.com
-               port: 5432
-               user: admin
-               ssl: false
            baseUrl: https://tap-gui.demo.vmwareexploreindia.com
            cors: 
              origin: https://tap-gui.demo.vmwareexploreindia.com
